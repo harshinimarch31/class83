@@ -20,7 +20,7 @@ var colour="black";
 var width_of_line=1;
 
 canvas.addEventListener("touchstart",my_touchstart);
-function my_tounchstart(e)
+function my_touchstart(e)
 {
     last_position_of_x=e.touches[0].clientX-canvas.offsetLeft;
     last_position_of_y=e.touches[0].clientY-canvas.offsetTop;
